@@ -70,7 +70,7 @@ public class Bestiary {
 		switch (depth) {
 		case 1:
 			chances = new float[]{ 1 };
-			classes = new Class<?>[]{ Rat.class };
+			classes = new Class<?>[]{ GreatCrab.class };
 			break;
 		case 2:
 			chances = new float[]{ 1, 1 };
