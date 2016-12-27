@@ -90,6 +90,8 @@ public class GreatCrab extends Crab {
 			sprite.showStatus( CharSprite.NEUTRAL, Messages.get(this, "blocked") );
 		} else {
 			super.buff( buff, src );
+			&& ((src instanceof WandofTransfusion)
+				Char int wand dmg =! null) 
 		}
 	}
 	
