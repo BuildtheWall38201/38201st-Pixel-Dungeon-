@@ -143,7 +143,17 @@ public enum HeroClass {
 		} else {
 			staff = new MagesStaff();
 			new WandOfMagicMissile().identify().collect();
-		}
+			new WandOfPrismaticLight().identify().collect();
+			new WandOfLightning().identify().collect();
+			new WandOfDisintegration().identify().collect();
+			new WandOFTransfusion().identify().collect();
+			new WandOFVenom().identify().collect();
+			new WandOFFireblast().identify().collect();
+			new WandOFRegrowth().identify().collect();
+			new WandOFBlastWave().identify().collect();
+			new WandOFFrost().identify().collect();
+			
+        }
 
 		(hero.belongings.weapon = staff).identify();
 		hero.belongings.weapon.activate(hero);
