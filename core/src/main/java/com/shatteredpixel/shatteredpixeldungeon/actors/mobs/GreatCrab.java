@@ -30,13 +30,13 @@ import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
 import com.shatteredpixel.shatteredpixeldungeon.sprites.GreatCrabSprite;
 import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Buffs;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoffrost;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandofmagicmissile;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandofprismaticlight;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoflightning;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoftransfusion;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandofdisintegration;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoftransfusion;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFfrost;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFmagicmissile;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFprismaticlight;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFlightning;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFtransfusion;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFdisintegration;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandOFtransfusion;
 	
 public class GreatCrab extends Crab {
 
