@@ -30,6 +30,7 @@ import com.shatteredpixel.shatteredpixeldungeon.messages.Messages;
 import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
 import com.shatteredpixel.shatteredpixeldungeon.sprites.GreatCrabSprite;
 import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
+import com.shatteredpixel.shatteredrpixeldungeon.actors.Buffs;
 
 public class GreatCrab extends Crab {
 
@@ -67,14 +68,25 @@ public class GreatCrab extends Crab {
 		//crab blocks all attacks originating from the hero or enemy characters or traps if it is alerted.
 		//All direct damage from these sources is negated, no exceptions. blob/debuff effects go through as normal.
 		if ((enemySeen && state != SLEEPING && paralysed == 0)
-				&& (src instanceof Wand || src instanceof LightningTrap.Electricity || src instanceof Char)){
+				&& (src instanceof Wand || src instanceof Char)){
 			GLog.n( Messages.get(this, "noticed") );
 			sprite.showStatus( CharSprite.NEUTRAL, Messages.get(this, "blocked") );
 		} else {
 			super.damage( dmg, src );
 		}
 	}
-
+	
+@Override
+	public void buff( int buff, Object src ){
+		if ((enemySeen && state != SLEEPING && paralysed == 0)
+		    && (src instanceof Wand)){
+			GLog.n( Messages.get(this, "noticed") );
+			sprite.showStatus( CharSprite.NEUTRAL, Messages.get(this, "blocked") );
+		} else {
+			super.buff( buff, src );
+		}
+	}
+	
 	@Override
 	public void die( Object cause ) {
 		super.die( cause );
