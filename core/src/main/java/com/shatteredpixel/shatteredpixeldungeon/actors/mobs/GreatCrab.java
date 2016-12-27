@@ -25,13 +25,19 @@ import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
 import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Ghost;
 import com.shatteredpixel.shatteredpixeldungeon.items.food.MysteryMeat;
 import com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand;
-import com.shatteredpixel.shatteredpixeldungeon.levels.traps.LightningTrap;
 import com.shatteredpixel.shatteredpixeldungeon.messages.Messages;
 import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
 import com.shatteredpixel.shatteredpixeldungeon.sprites.GreatCrabSprite;
 import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredrpixeldungeon.actors.Buffs;
-
+import com.shatteredpixel.shatteredpixeldungeon.actors.Buffs;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoffrost;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandofmagicmissile;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandofprismaticlight;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoflightning;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoftransfusion;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandofdisintegration;
+import com.shatteredpixel.shatteredpixeldungeon.items.wands.wandoftransfusion;
+	
 public class GreatCrab extends Crab {
 
 	{
