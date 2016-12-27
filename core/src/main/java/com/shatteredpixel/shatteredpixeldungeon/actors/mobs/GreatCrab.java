@@ -91,7 +91,9 @@ public class GreatCrab extends Crab {
 		} else {
 			super.buff( buff, src );
 			&& ((src instanceof WandofTransfusion)
-				Char int wand dmg =! null) 
+				public void Char int wand dmg =! null)
+				&& ((src instanceof WandofMagicMissile || src instanceof WandofDisintegration || src instanceof WandofFrost || src instanceof WandofLightning || src instanceof WandofPrismaticLight)
+				    static GreatCrab clone Char atk)
 		}
 	}
 	
